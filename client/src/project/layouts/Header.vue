@@ -1,6 +1,30 @@
 <template lang="pug">
-    header.header
-        h3 header
+    header.navbar.navbar-expand-lg.navbar-light.bg-light
+        router-link.navbar-brand(to='/') Navbar
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+            ul.navbar-nav.mr-auto
+                li.nav-item.active
+                    a.nav-link(href='#')
+                        | Home
+                        span.sr-only (current)
+                li.nav-item
+                    a.nav-link(href='#') Link
+                li.nav-item.dropdown
+                    a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+                        | Dropdown
+                    .dropdown-menu(aria-labelledby='navbarDropdown')
+                        a.dropdown-item(href='#') Action
+                        a.dropdown-item(href='#') Another action
+                        .dropdown-divider
+                        a.dropdown-item(href='#') Something else here
+                li.nav-item
+                    a.nav-link.disabled(href='#') Disabled
+            form.form-inline.my-2.my-lg-0
+                input.form-control.mr-sm-2(type='search' placeholder='Search' aria-label='Search')
+                button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
+
 
 </template>
 
@@ -11,12 +35,5 @@ name: "Header"
 </script>
 
 <style lang="scss" scoped>
-    .footer {
-        height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #e5e5e5;
 
-    }
 </style>

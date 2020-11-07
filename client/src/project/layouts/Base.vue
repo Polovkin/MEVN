@@ -1,7 +1,7 @@
 <template lang="pug">
-    div
+    div.base
         Header
-        router-view
+        router-view.main
         Footer
 </template>
 
@@ -16,5 +16,14 @@ export default {
 </script>
 
 <style scoped>
-
+.base {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main {
+    padding-top: 200px;
+    min-height: 100vh;
+}
 </style>

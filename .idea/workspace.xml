@@ -20,116 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3660d2-0899-43b5-bd46-d3f1e8b74887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/project/pages/Posts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/PostsService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Black.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-BlackIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-BlackIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-BlackIt.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-BlackIt.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-BlackIt.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-BlackIt.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-BoldIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-BoldIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-BoldIt.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-BoldIt.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-BoldIt.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-BoldIt.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-ExtraLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-ExtraLight.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-ExtraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-ExtraLight.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-ExtraLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-ExtraLight.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-ExtraLightIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-ExtraLightIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-ExtraLightIt.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-ExtraLightIt.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-ExtraLightIt.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-ExtraLightIt.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-It.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-It.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-It.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-It.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-It.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-It.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-LightIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-LightIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-LightIt.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-LightIt.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-LightIt.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-LightIt.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-MediumIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-MediumIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-MediumIt.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-MediumIt.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-MediumIt.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-MediumIt.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Semibold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Semibold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Semibold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Semibold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-Semibold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-Semibold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-SemiboldIt.eot" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-SemiboldIt.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-SemiboldIt.woff" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-SemiboldIt.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/SourceCodePro-SemiboldIt.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/fonts/SourceCodePro-SemiboldIt.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/_components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_fixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/_fixes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_layouts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/_layouts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_modules.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/_modules.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/animation/_keyframes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/animation/_keyframes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/animation/animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/animation/animation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/core/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/core/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/core/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/core/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/general/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/general/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/general/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/general/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/general/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/general/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/general/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/general/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/general/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/general/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/layout/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/layout/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/modules/_accordion.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/modules/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/modules/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/pages/_pages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/about/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/pages/about/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/pages/index/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/pages/index/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/utils/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/_placeholders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/utils/_placeholders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/_shapes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/utils/_shapes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/utils/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/utils/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_apple-watch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_apple-watch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_galaxy-s8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_galaxy-s8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_google-pixel-2-xl.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_google-pixel-2-xl.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_google-pixel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_google-pixel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_imac-pro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_imac-pro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_ipad-pro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_ipad-pro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_iphone-8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_iphone-8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_iphone-x.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_iphone-x.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_macbook-pro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_macbook-pro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_macbook.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_macbook.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_surface-book.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_surface-book.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_surface-pro.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_surface-pro.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_surface-studio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_surface-studio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/vendors/devices/devices.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/vendors/devices/devices.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/widget/popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/widget/popup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/layouts/Base.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/layouts/Base.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/layouts/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/layouts/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/layouts/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/layouts/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/utils/mixins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pug/utils/mixins.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/modules/photo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/project/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +37,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,17 +58,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/project/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client\src\project\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client\src" />
+      <recent name="C:\Users\Михаил\PhpstormProjects\MEVN" />
       <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\server\src\config" />
       <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start-server">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -208,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604759347377</updated>
       <workItem from="1604759348505" duration="1115000" />
-      <workItem from="1604760624662" duration="1738000" />
+      <workItem from="1604760624662" duration="5245000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1604761457622</created>
@@ -217,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604761457622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1604762622456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604762622456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,30 +177,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1082" y="405" key="Github.UntrackedFilesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604759438915" />
-    <state width="2517" height="190" key="GridCell.Tab.0.bottom" timestamp="1604762098888">
+    <state width="2517" height="291" key="GridCell.Tab.0.bottom" timestamp="1604765888746">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="190" key="GridCell.Tab.0.bottom/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762098888" />
-    <state width="2517" height="190" key="GridCell.Tab.0.center" timestamp="1604762098888">
+    <state width="2517" height="291" key="GridCell.Tab.0.bottom/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
+    <state width="2517" height="291" key="GridCell.Tab.0.center" timestamp="1604765888746">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="190" key="GridCell.Tab.0.center/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762098888" />
-    <state width="2517" height="190" key="GridCell.Tab.0.left" timestamp="1604762098888">
+    <state width="2517" height="291" key="GridCell.Tab.0.center/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
+    <state width="2517" height="291" key="GridCell.Tab.0.left" timestamp="1604765888746">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="190" key="GridCell.Tab.0.left/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762098888" />
-    <state width="2517" height="190" key="GridCell.Tab.0.right" timestamp="1604762098888">
+    <state width="2517" height="291" key="GridCell.Tab.0.left/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
+    <state width="2517" height="291" key="GridCell.Tab.0.right" timestamp="1604765888746">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="190" key="GridCell.Tab.0.right/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762098888" />
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1604761465181">
+    <state width="2517" height="291" key="GridCell.Tab.0.right/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1604762624518">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604761465181" />
-    <state x="943" y="315" key="search.everywhere.popup" timestamp="1604762238169">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762624518" />
+    <state x="1097" y="435" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604762528822">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" key="search.everywhere.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762238169" />
+    <state x="1097" y="435" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762528822" />
+    <state x="943" y="315" key="search.everywhere.popup" timestamp="1604762787030">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" key="search.everywhere.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604762787030" />
     <state x="1111" y="492" key="svn.repositoryBrowser" timestamp="1604759414442">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
