@@ -7,16 +7,18 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start-server": "nodemon --ext js --watch src"
+    "start": "nodemon src/index --ext js --watch src",
+    "stop": "killall node"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mongo-express": "^1.0.0-alpha.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "mongoose": "^5.10.13",
+    "mongoose": "^5.7.0",
     "nodemon": "^2.0.6"
   }
 }

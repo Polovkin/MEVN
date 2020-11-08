@@ -19,16 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3660d2-0899-43b5-bd46-d3f1e8b74887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/project/pages/Posts.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/PostsService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/api.js" afterDir="false" />
+    <list default="true" id="391fb350-ff91-464b-81a5-62fa1438f234" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/project/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="new-server" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jxx3uPP6Q7mB0RbXWG2vpLrxeZ" />
@@ -73,7 +71,7 @@
       <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.serve">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -151,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -177,22 +176,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1082" y="405" key="Github.UntrackedFilesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604759438915" />
-    <state width="2517" height="291" key="GridCell.Tab.0.bottom" timestamp="1604765888746">
+    <state width="1258" height="190" key="GridCell.Tab.0.bottom" timestamp="1604853576052">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="291" key="GridCell.Tab.0.bottom/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
-    <state width="2517" height="291" key="GridCell.Tab.0.center" timestamp="1604765888746">
+    <state width="1258" height="190" key="GridCell.Tab.0.bottom/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604853576052" />
+    <state width="1258" height="190" key="GridCell.Tab.0.center" timestamp="1604853576051">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="291" key="GridCell.Tab.0.center/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
-    <state width="2517" height="291" key="GridCell.Tab.0.left" timestamp="1604765888746">
+    <state width="1258" height="190" key="GridCell.Tab.0.center/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604853576051" />
+    <state width="1258" height="190" key="GridCell.Tab.0.left" timestamp="1604853576051">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="291" key="GridCell.Tab.0.left/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
-    <state width="2517" height="291" key="GridCell.Tab.0.right" timestamp="1604765888746">
+    <state width="1258" height="190" key="GridCell.Tab.0.left/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604853576051" />
+    <state width="1258" height="190" key="GridCell.Tab.0.right" timestamp="1604853576052">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="291" key="GridCell.Tab.0.right/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604765888746" />
+    <state width="1258" height="190" key="GridCell.Tab.0.right/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604853576052" />
     <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1604762624518">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
