@@ -3,6 +3,7 @@
     section.container
         h1 home
         router-link(to='/posts') posts
+        v-btn(color="primary" elevation="7") click
 
 
 </template>

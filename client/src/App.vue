@@ -1,7 +1,8 @@
 <template lang="pug">
     #app
-        component(:is="layout")
-            router-view
+        v-app
+            component(:is="layout")
+                router-view
 </template>
 <script>
 
