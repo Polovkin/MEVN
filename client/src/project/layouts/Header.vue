@@ -1,8 +1,7 @@
 <template lang="pug">
     header
-        v-toolbar(color='indigo' dark fixed app)
-            v-toolbar-side-icon(@click.stop='drawer = !drawer;')
-            v-toolbar-title Application
+        v-toolbar(color='indigo' dark fixed)
+            router-link(to="/" style="color: white") Application
 
 
 </template>

@@ -37,6 +37,14 @@ const routes = [
             layout: 'main'
         },
         component: () => import('@/project/pages/EditPost.vue')
+    },
+    {
+        path: '/form',
+        name: 'Form',
+        meta: {
+            layout: 'main'
+        },
+        component: () => import('@/project/pages/Form.vue')
     }
 ]
 

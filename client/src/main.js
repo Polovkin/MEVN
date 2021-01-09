@@ -1,6 +1,6 @@
 
 
-import 'normalize.css'
+//import 'normalize.css'
 
 import "./assets/scss/app.scss";
 

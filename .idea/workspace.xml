@@ -20,15 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391fb350-ff91-464b-81a5-62fa1438f234" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/project/pages/Form.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/scss/general/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/scss/general/_forms.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/project/layouts/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/layouts/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/project/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/project/layouts/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/layouts/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/project/pages/Posts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/project/pages/Posts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/services/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +64,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/project/pages" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nuxt" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Михаил\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.7660.42\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client\src\project\pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client\src" />
       <recent name="C:\Users\Михаил\PhpstormProjects\MEVN" />
       <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\server\src\config" />
       <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\PhpstormProjects\Учеба\MEVN\nuxt" />
+      <recent name="C:\Users\Михаил\PhpstormProjects\MEVN\client\src\project\pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.serve">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="run" />
@@ -99,11 +109,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start-server" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start-server" />
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -112,19 +122,24 @@
     <list>
       <item itemvalue="npm.serve" />
       <item itemvalue="npm.build" />
-      <item itemvalue="npm.start-server" />
+      <item itemvalue="npm.start" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea3660d2-0899-43b5-bd46-d3f1e8b74887" name="Default Changelist" comment="" />
+      <changelist id="391fb350-ff91-464b-81a5-62fa1438f234" name="Default Changelist" comment="" />
       <created>1604759347377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604759347377</updated>
       <workItem from="1604759348505" duration="1115000" />
       <workItem from="1604760624662" duration="5245000" />
+      <workItem from="1605465715137" duration="3387000" />
+      <workItem from="1605510503421" duration="598000" />
+      <workItem from="1605515627326" duration="2143000" />
+      <workItem from="1605649472632" duration="1445000" />
+      <workItem from="1605687028740" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1604761457622</created>
@@ -163,18 +178,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="736" y="356" width="1089" height="809" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604761997126">
+    <state x="736" y="356" width="1089" height="857" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605465888890">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="736" y="356" width="1089" height="809" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604761997126" />
+    <state x="736" y="356" width="1089" height="857" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605465888890" />
     <state x="1031" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604761865976">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1031" y="496" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604761865975" />
-    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1604759375199">
+    <state x="1061" y="442" key="FileChooserDialogImpl" timestamp="1605649851046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1061" y="442" key="FileChooserDialogImpl/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604759375199" />
+    <state x="1061" y="442" key="FileChooserDialogImpl/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605649851046" />
     <state x="1158" y="603" key="Github.ShareDialog" timestamp="1604759434289">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -183,26 +198,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1082" y="405" key="Github.UntrackedFilesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604759438915" />
-    <state width="2517" height="267" key="GridCell.Tab.0.bottom" timestamp="1604907767807">
+    <state width="1377" height="267" key="GridCell.Tab.0.bottom" timestamp="1605518576858">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="267" key="GridCell.Tab.0.bottom/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604907767807" />
-    <state width="2517" height="267" key="GridCell.Tab.0.center" timestamp="1604907767807">
+    <state width="1377" height="267" key="GridCell.Tab.0.bottom/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605518576858" />
+    <state width="1377" height="267" key="GridCell.Tab.0.center" timestamp="1605518576858">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="267" key="GridCell.Tab.0.center/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604907767807" />
-    <state width="2517" height="267" key="GridCell.Tab.0.left" timestamp="1604907767807">
+    <state width="1377" height="267" key="GridCell.Tab.0.center/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605518576858" />
+    <state width="1377" height="267" key="GridCell.Tab.0.left" timestamp="1605518576858">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="267" key="GridCell.Tab.0.left/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604907767807" />
-    <state width="2517" height="267" key="GridCell.Tab.0.right" timestamp="1604907767807">
+    <state width="1377" height="267" key="GridCell.Tab.0.left/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605518576858" />
+    <state width="1377" height="267" key="GridCell.Tab.0.right" timestamp="1605518576858">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="267" key="GridCell.Tab.0.right/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604907767807" />
-    <state x="1080" y="402" key="RollbackChangesDialog" timestamp="1604907895503">
+    <state width="1377" height="267" key="GridCell.Tab.0.right/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605518576858" />
+    <state x="1080" y="402" key="RollbackChangesDialog" timestamp="1605465729233">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1080" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604907895503" />
+    <state x="1080" y="402" key="RollbackChangesDialog/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605465729233" />
     <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1604762624518">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -219,6 +234,10 @@
       <screen x="-1920" y="0" width="1920" height="1020" />
     </state>
     <state x="-1631" y="-10" width="1244" height="1093" maximized="true" key="dock-window-1/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1604908074507" />
+    <state x="988" y="437" width="585" height="526" key="find.popup" timestamp="1605452411791">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="988" y="437" width="585" height="526" key="find.popup/-1920.0.1920.1020/0.0.2560.1400@0.0.2560.1400" timestamp="1605452411791" />
     <state x="943" y="315" key="search.everywhere.popup" timestamp="1604762787030">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
